@@ -1,0 +1,47 @@
+.heading-icon {
+  font-size: 20px;
+  color: $theme-color-1;
+  margin-right: 5px;
+  line-height: inherit;
+  vertical-align: middle;
+}
+
+.todo-details {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.heading-number {
+  border: 1px solid $theme-color-1;
+  padding: 4px;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 20px;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  color: $theme-color-1;
+}
+
+.ant-switch-checked {
+  background-color: $theme-color-1;
+}
+.ant-radio-inner::after{
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: $theme-color-1;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 8px;
+  transform: scale(0);
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  content: ' ';
+}
+.ant-radio-checked .ant-radio-inner{
+  border-color: $theme-color-1;
+}
